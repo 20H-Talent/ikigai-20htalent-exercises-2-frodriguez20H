@@ -2,6 +2,11 @@
 
 /* Create a type selector that targets the body element. Then, add the text-align property and set the value to center. */
 
+/* Create a new type selector that targets the paragraph elements. Add a color property and set the value to lightslategrey. */
 body {
     text-align: center;
+}
+
+p {
+    color: lightslategrey;
 }
