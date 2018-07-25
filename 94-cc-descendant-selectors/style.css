@@ -1,6 +1,7 @@
 /* Complete the challenge by writing CSS below */
 /* Create a descendant selector that targets the span inside the header element. Add a font-size property and set the value to 26px. */
 /* Next, target the paragraph that is a descendant of the main-content class. Add a font-weight property and set the value to bold. */
+/* Finally, target the paragraph that is a descendant of the footer element. Add a color property and set the value to slategrey. */
 
 header span {
     font-size: 26px;
@@ -8,4 +9,8 @@ header span {
 
 .main-content p {
     font-weight: bold;
+}
+
+footer p {
+    color: slategrey;
 }
