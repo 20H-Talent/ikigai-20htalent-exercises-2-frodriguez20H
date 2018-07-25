@@ -1,6 +1,7 @@
 /* Complete the challenge by writing CSS below */
 /* Use the pseudo-class selector that targets default, unvisited links. Set their color value to orange. */
 /* Next, create a pseudo-class selector that targets all visited links. Add a color property and set the value to steelblue. */
+/* Finally, add a new pseudo-class selector that targets all links on hover. Add a color property and set the value to tomato. */
 
 a:link {
     color: orange;
@@ -8,4 +9,8 @@ a:link {
 
 a:visited {
     color: steelblue;
+}
+
+a:hover {
+    color: tomato;
 }
