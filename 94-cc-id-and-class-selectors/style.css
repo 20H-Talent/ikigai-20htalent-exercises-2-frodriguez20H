@@ -3,6 +3,7 @@
 /* In the style sheet, target main-header with a class selector. Then, add a background-color property and set the value to orange.*/
 /* In the HTML file, give the h1 element the class main-heading.*/
 /* Next, target the class main-heading. Give the heading a font-size property and set the value to 72px. */
+/* Finally, target main-content with an ID selector. Add a background-color property and set the value to lightsteelblue. */
 
 .main-header {
     background-color: orange;
@@ -10,4 +11,8 @@
 
 .main-heading {
     font-size: 72px;
+}
+
+#main-content {
+    background-color: lightsteelblue;
 }
