@@ -1,1 +1,6 @@
 /* Complete the challenge by writing CSS below */
+/* Use the pseudo-class selector that targets default, unvisited links. Set their color value to orange. */
+
+a:link {
+    color: orange;
+}
