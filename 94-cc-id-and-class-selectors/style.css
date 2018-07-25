@@ -1,6 +1,7 @@
 /* Complete the challenge by writing CSS below */
 /* Give the header element a class attribute. Then, set the class value to main-header. */
 /* In the style sheet, target main-header with a class selector. Then, add a background-color property and set the value to orange.*/
+/* In the HTML file, give the h1 element the class main-heading.*/
 
 .main-header {
     background-color: orange;
