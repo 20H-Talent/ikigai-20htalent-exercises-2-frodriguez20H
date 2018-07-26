@@ -1,7 +1,11 @@
 /* Complete the challenge by writing CSS below */
 /* Let's make the <span> element with the class "title" larger. Increase its font size to 26 pixels. */ 
-/* */
+/* Next, increase the font size of the h2 element to 53 pixels. */
 
 .title {
     font-size: 26px;
+}
+
+h2 {
+    font-size: 53px;
 }
