@@ -1,14 +1,14 @@
 /* Complete the challenge by writing CSS below */
 
 header {
-    font-size: 1.8em;
+    font-size: 1.8em; /* 28.8*/
   }
   
 .title {
-    font-size: 1.625em;
+    font-size: 0.9em; /* 26 */
 }
   
 h1 {
-    font-size: 5.625em;
+    font-size: 3.125em; /* 90 */
 }
   
