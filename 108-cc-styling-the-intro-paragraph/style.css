@@ -2,6 +2,7 @@
 /* In the style sheet, select the intro class and add a font-size property.
  Using 16px as the parent font-size context, give intro an em font-size value equivalent to 20px. */
 /* Next, give intro a unitless line-height that's 1.6 times larger than the font-size value. */
+/* Create a new rule that targets the span element inside .intro. Give the span element a bold font weight and an italic font style. */
 
 p {
     font-size: 1em;
@@ -10,4 +11,8 @@ p {
 .intro {
     font-size: 1.25em;
     line-height: 1.6em;
+}
+.intro span {
+    font-weight: bold;
+    font-style: italic;
 }
