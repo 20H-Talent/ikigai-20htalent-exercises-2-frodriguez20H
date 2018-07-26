@@ -1,1 +1,11 @@
 /* Complete the challenge by writing CSS below */
+/* In the style sheet, select the intro class and add a font-size property.
+ Using 16px as the parent font-size context, give intro an em font-size value equivalent to 20px. */
+
+p {
+    font-size: 1em;
+}
+
+.intro {
+    font-size: 1.25em;
+}
