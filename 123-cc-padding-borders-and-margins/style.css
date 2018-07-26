@@ -4,6 +4,7 @@
 /* Next, give the .wildlife div a solid, orange top border that's 10px wide. */
 /* Target the .secondary-content div. Set the top padding to 80 pixels and the bottom padding to 70 pixels. */
 /* #4 Let's separate the .wildlife container from the content above it. Give .wildlife a top margin of 105 pixels. */
+/* Finally, give the .secondary-content element a dotted, lightgrey bottom border that's 2px wide. */
 
 .wildlife {
     border-top: solid orange 10px;
@@ -18,4 +19,5 @@
 .secondary-content {
     padding-top: 80px;
     padding-bottom: 70px;
+    border-bottom: 2px dotted lightgrey;
 }
