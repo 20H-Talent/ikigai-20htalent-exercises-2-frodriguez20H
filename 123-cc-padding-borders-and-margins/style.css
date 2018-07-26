@@ -1,6 +1,11 @@
 /* Complete the challenge by writing CSS below */
 /* Let's style parts of the Lake Tahoe website using padding, borders, and margins. First, target the class primary-content.
  Set the top padding to 25 pixels and the bottom padding to 95 pixels. */
+/* Next, give the .wildlife div a solid, orange top border that's 10px wide. */
+
+.wildlife {
+    border-top: solid orange 10px;
+}
 
 .primary-content {
     padding-top: 25px;
