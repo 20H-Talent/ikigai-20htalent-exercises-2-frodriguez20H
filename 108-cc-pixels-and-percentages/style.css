@@ -1,6 +1,7 @@
 /* Complete the challenge by writing CSS below */
 /* Let's make the <span> element with the class "title" larger. Increase its font size to 26 pixels. */ 
 /* Next, increase the font size of the h2 element to 53 pixels. */
+/* Finally, let's reduce the width of the main-content div. Give it a width value that takes up 75 percent of its container's width. */
 
 .title {
     font-size: 26px;
@@ -8,4 +9,8 @@
 
 h2 {
     font-size: 53px;
+}
+
+.main-content {
+    width: 75%;
 }
