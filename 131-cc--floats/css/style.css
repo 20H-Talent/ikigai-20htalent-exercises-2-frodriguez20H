@@ -10,6 +10,9 @@
     float: right;
 }
 
+.content-traveling {
+    float: left;
+}
 
 /* Clearfix ---------------------------------- */
 
