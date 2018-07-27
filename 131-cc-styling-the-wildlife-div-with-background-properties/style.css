@@ -1,6 +1,8 @@
 /* Complete the challenge by writing CSS below */
 /* Create a new rule that targets the class 'wildlife'. Set the bear.jpg image, located in the img folder, as the background image. */
+/* Next, define the background property and value that prevents a background image from repeating in any direction. */
 
 .wildlife {
     background-image: url(img/bear.jpg);
+    background-repeat: no-repeat;
 }
