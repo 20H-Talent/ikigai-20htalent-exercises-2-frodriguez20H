@@ -1,0 +1,20 @@
+/* Complete the challenge by writing CSS below */
+/* Create a new rule that targets the .content-lodging div.
+ Add the property and value that takes .content-lodging out of the normal page flow and places it along the right side of its container. */
+/* Next, create a new rule that targets .content-traveling.
+ Add the property and value that takes .content-traveling out of the normal page flow and places it along the left side of its container. */
+/* In the preview, notice how the floats made the parent container's height collapse.
+ In the HTML file, give the .secondary-content div the specified class for clearing floats. */
+
+.content-lodging {
+    float: right;
+}
+
+
+/* Clearfix ---------------------------------- */
+
+.group:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
