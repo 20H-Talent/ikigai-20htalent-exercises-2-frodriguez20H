@@ -2,6 +2,13 @@
 /* Create a new rule that targets .main-heading.
    Give the heading a text shadow by setting the horizontal and vertical offsets to 0, the blur radius to 5px, and the color to the hex value be7b31. */
 
+/* Next, create a new rule that targets .title.
+   Let's also give .title a text shadow by setting the horizontal offset to 1px, the vertical offset to 3px, the blur radius to 0, and the color to #e59740. */
+
 .main-heading {
     text-shadow: 0px 0px 5px #be7b31;
+}
+
+.title {
+    text-shadow: 1px 3px 0 #e59740;
 }
