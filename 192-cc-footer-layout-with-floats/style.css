@@ -1,6 +1,13 @@
 /* Complete the challenge by writing CSS below */
 
+/* Float .footer-nav to the left edge of the footer and .logo to the right edge. */
+.logo {
+    float: right;
+}
 
+.footer-nav {
+    float: left;
+}
 
 .clearfix::after {
     content: "";
