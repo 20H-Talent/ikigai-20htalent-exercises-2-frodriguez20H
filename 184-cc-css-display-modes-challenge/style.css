@@ -2,8 +2,16 @@
 
 /* Display the list items inside .main-nav side by side. Use the display value that generates a block element that flows with surrounding content. */
 
+/* The <ul> with the class main-nav is a block-level element by default, so it takes up the full width of its container.
+Let's set .main-nav to be as wide as the content inside it.
+Change the display of .main-nav to the display value that generates a block element that doesn't take up a full line. */
+
 header {
     text-align: center;
+}
+
+.main-nav {
+    display: inline-block;
 }
 
 .main-nav li{
