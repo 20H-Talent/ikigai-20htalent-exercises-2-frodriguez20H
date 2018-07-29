@@ -6,6 +6,9 @@
 Let's set .main-nav to be as wide as the content inside it.
 Change the display of .main-nav to the display value that generates a block element that doesn't take up a full line. */
 
+/* The logo is an <img>, so it displays inline with surrounding content by default.
+ The logo displays on the same line as .main-nav and the auto margins have no effect on it. Place the .logo on a separate line by changing its display mode. */
+
 header {
     text-align: center;
 }
@@ -21,4 +24,5 @@ header {
 .logo {
     width: 110px;
     margin: auto;
+    display: block;
 }
