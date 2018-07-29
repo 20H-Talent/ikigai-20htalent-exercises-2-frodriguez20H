@@ -1,6 +1,7 @@
 /* Complete the challenge by writing CSS below */
 /* Create a new rule that targets .main-header. */
+/* Next, add a background-image property and define a linear gradient function as the value. */
 
 .main-header {
-    
+    background-image: linear-gradient();
 }
