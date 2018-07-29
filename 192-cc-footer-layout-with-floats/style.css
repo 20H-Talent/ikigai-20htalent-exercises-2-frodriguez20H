@@ -7,6 +7,9 @@
 /* The floats inside the <footer> caused its height to collapse.
    Give the <footer> element the class that will clear all floats inside it. */
 
+/* The copyright text in the footer needs to be moved down below the floated elements.
+Select .copyright and apply the property and value that clears both the left and right floats. */
+
 .logo {
     float: right;
 }
@@ -19,6 +22,9 @@
     display: inline-block;
 }
 
+.copyright {
+    clear: both;
+}
 .clearfix::after {
     content: "";
     display: table;
