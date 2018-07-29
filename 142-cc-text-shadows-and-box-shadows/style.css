@@ -5,10 +5,17 @@
 /* Next, create a new rule that targets .title.
    Let's also give .title a text shadow by setting the horizontal offset to 1px, the vertical offset to 3px, the blur radius to 0, and the color to #e59740. */
 
+/* Create a rule that targets .main-header.
+   This time, we'll give .main-header a box shadow. Set the box shadow's horizontal offset to 0, the vertical offset to 2px, the blur radius to 15px, and the color to #aaa. */
+
 .main-heading {
     text-shadow: 0px 0px 5px #be7b31;
 }
 
 .title {
     text-shadow: 1px 3px 0 #e59740;
+}
+
+.main-header {
+    box-shadow: 0px 2px 15px #aaa;
 }
