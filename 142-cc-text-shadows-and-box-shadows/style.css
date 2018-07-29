@@ -8,6 +8,10 @@
 /* Create a rule that targets .main-header.
    This time, we'll give .main-header a box shadow. Set the box shadow's horizontal offset to 0, the vertical offset to 2px, the blur radius to 15px, and the color to #aaa. */
 
+/* Just like the text-shadow property the box-shadow can take multiple comma-seperated values to add additional shadows to the same element.
+   Let's give .main-header an inner-shadow with a second set of box-shadow values.
+   Set the new shadow's horizontal and vertical offsets to 0, the blur radius to 60px, the spread radius to 5px, and the color to firebrick. Don't forget to include the keyword value that creates an inner box shadow. */
+
 .main-heading {
     text-shadow: 0px 0px 5px #be7b31;
 }
@@ -17,5 +21,5 @@
 }
 
 .main-header {
-    box-shadow: 0px 2px 15px #aaa;
+    box-shadow: 0px 2px 15px #aaa, inset 0 0 60px 5px firebrick;
 }
