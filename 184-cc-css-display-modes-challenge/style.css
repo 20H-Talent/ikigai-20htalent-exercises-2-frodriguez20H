@@ -1,9 +1,16 @@
 /* Complete the challenge by writing CSS below */
 
+/* Display the list items inside .main-nav side by side. Use the display value that generates a block element that flows with surrounding content. */
+
 header {
     text-align: center;
-  }
-  .logo {
+}
+
+.main-nav li{
+    display: inline;
+}
+
+.logo {
     width: 110px;
     margin: auto;
-  }
+}
