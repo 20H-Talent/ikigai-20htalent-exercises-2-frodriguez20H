@@ -2,7 +2,8 @@
 /* Create a new rule that targets .main-header. */
 /* Next, add a background-image property and define a linear gradient function as the value. */
 /* Set the gradient's first color stop to steelblue and the second color stop to darkslateblue. */
+/* Set the second color stop's position to 90%. Then, add the value that sets the gradient direction from bottom to top. */
 
 .main-header {
-    background-image: linear-gradient(steelblue, darkslateblue);
+    background-image: linear-gradient(to top, steelblue, darkslateblue 90%);
 }
