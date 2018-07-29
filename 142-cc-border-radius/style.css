@@ -1,0 +1,8 @@
+/* Complete the challenge by writing CSS below */
+
+/* Let's give the .wildlife div rounded corners! Add the shorthand property for setting rounded corners.
+ Set the top-left border radius to 20px, the top-right radius to 5px, the bottom-right radius to 20px, and the bottom-left radius to 5px. */
+
+.wildlife {
+    border-radius: 20px 5px 20px 5px;
+}
