@@ -4,6 +4,9 @@
 
 /* Next, display the list items inside .footer-nav side by side with a float. */
 
+/* The floats inside the <footer> caused its height to collapse.
+   Give the <footer> element the class that will clear all floats inside it. */
+
 .logo {
     float: right;
 }
