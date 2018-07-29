@@ -1,1 +1,7 @@
 /* Complete the challenge by writing CSS below */
+/* Set the wrapper's width to 80% of the browser width. Then use margins to center the wrapper in the browser. */
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
