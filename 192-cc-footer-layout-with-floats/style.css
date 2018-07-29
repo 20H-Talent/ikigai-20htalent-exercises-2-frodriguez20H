@@ -1,12 +1,19 @@
 /* Complete the challenge by writing CSS below */
 
 /* Float .footer-nav to the left edge of the footer and .logo to the right edge. */
+
+/* Next, display the list items inside .footer-nav side by side with a float. */
+
 .logo {
     float: right;
 }
 
 .footer-nav {
     float: left;
+}
+
+.footer-nav li {
+    display: inline-block;
 }
 
 .clearfix::after {
