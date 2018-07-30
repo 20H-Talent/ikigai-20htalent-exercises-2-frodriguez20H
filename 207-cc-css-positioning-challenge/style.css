@@ -3,6 +3,12 @@
 
 /* Next, give .logo a top offset of -45px and a left offset of 125px.  */
 
+/* The logo's absolute position is relative to the browser viewport. Make .card the new positioning context for .logo. */
+
+.card {
+    position: relative;
+}
+
 .logo {
     position: absolute;
     top: -45px;
