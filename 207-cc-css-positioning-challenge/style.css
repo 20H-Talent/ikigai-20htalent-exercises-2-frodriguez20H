@@ -1,1 +1,7 @@
 /* Complete the challenge by writing CSS below */
+/* Select the class logo and give it absolute positioning. */
+
+.logo {
+    position: absolute;
+}
+
