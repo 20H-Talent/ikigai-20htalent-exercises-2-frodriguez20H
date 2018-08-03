@@ -15,8 +15,13 @@
 
     <div class="wrapper">
 
+        <!-- The <picture> element has two child <source> elements.
+            In the first <source> element, add a media attribute with a value that will only use the source when in landscape orientation.
+            The second <source> element should not be modified. -->
+
         <picture>
-            <source srcset="banner-large.jpg  2048w,
+            <source media="(orientation: landscape)"
+                    srcset="banner-large.jpg  2048w,
                             banner-medium.jpg 1400w,
                             banner-small.jpg  800w" />
             <source srcset="banner-square-large.jpg  1000w,
