@@ -1,7 +1,11 @@
-[title="avatar"] {
+img[title="avatar"] {
     border-radius: 50%;
 }
 
 input[type="password"] {
     color: #ccc;
+}
+
+input[type="submit"] {
+    background-color: #52bab3;
 }
