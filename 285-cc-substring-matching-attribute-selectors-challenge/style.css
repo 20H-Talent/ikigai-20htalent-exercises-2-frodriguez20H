@@ -5,3 +5,9 @@
 img[title^="product-"] {
     color: lightblue;
 }
+
+/* Next, create a new selector that targets an a element if its href value ends with ".html". Set its text-decoration to none. */
+
+[href$=".html"] {
+    text-decoration: none;
+}
