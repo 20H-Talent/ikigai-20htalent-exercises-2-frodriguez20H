@@ -1,1 +1,7 @@
 /* Complete the challenge by writing CSS below */
+
+/* Create a selector that targets an img element if its title value begins with "product-". Set the border color to lightblue. */
+
+img[title^="product-"] {
+    color: lightblue;
+}
