@@ -11,3 +11,10 @@ img[title^="product-"] {
 [href$=".html"] {
     text-decoration: none;
 }
+
+/* Finally, create a new selector that targets an img element if its src value contains the word "preview".
+ Then, set its width to 100%. */
+
+img[src*="preview"] {
+    width: 100%;
+}
