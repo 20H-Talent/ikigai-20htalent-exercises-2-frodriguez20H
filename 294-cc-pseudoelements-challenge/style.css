@@ -9,6 +9,9 @@
   /* Next, in the second .progbar selector, add the pseudo-element that will insert content before the element.
    Don't forget to write the content declaration on line 13. */
 
+   /* Finally, create a new rule that will insert a pseudo-element after an a element.
+ As the content value, define a CSS function that will insert an href attribute's value as content. */
+
 .progbar::after {
   content: "";
   display: block;
@@ -36,4 +39,8 @@
   background: #d6d7d9;
   position: relative;
   margin-bottom: 3.875em;
+}
+
+a::after {
+    content: attr(href);
 }
