@@ -1,6 +1,9 @@
 /* Complete the challenge by writing CSS below */
 
-.progbar {
+/* Let's use pseudo-elements to create a progress bar from a single element.
+ First, in the top .progbar selector, add the pseudo-element that will insert content after the element. */
+
+.progbar::after {
   display: block;
   width: 50%;
   height: 100%;
