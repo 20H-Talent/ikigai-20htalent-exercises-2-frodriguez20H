@@ -3,7 +3,14 @@
 /* Let's use pseudo-elements to create a progress bar from a single element.
  First, in the top .progbar selector, add the pseudo-element that will insert content after the element. */
 
+ /* In the same rule, add the property that lets us insert content into an element.
+  The value should be an empty set of quotes. */
+
+  /* Next, in the second .progbar selector, add the pseudo-element that will insert content before the element.
+   Don't forget to write the content declaration on line 13. */
+
 .progbar::after {
+  content: "";
   display: block;
   width: 50%;
   height: 100%;
