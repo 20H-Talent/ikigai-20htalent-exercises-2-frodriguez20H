@@ -2,6 +2,8 @@
 
 /* Select the class .column and use the flex item property and value that will expand the columns to fill the space of the row. */
 
+/* Next, target .primary and assign it twice as much free space as the other flex items. */
+
 .row {
     display: flex;
 }
@@ -9,4 +11,8 @@
 .column {
     display: flex;
     flex-direction: column;
+}
+
+.primary {
+    flex: 2;
 }
