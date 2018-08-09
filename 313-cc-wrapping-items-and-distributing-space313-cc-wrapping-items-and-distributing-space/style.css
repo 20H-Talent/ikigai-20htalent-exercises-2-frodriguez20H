@@ -4,7 +4,11 @@
 
 /* Next, give .row the flexbox property and value that will make it a multi-line flex container. */
 
+/* Finally, let's distribute the available space inside .row.
+ Give .row the flexbox property and value that will place the first and last items along its edges, then equally distribute the space between the other items. */
+
 .row {
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-between;
 }
