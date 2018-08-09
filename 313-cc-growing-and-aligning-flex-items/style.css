@@ -4,13 +4,17 @@
 
 /* Next, target .primary and assign it twice as much free space as the other flex items. */
 
+/* Finally, align the columns to the vertical center of .row. Use the flex container property that controls alignment on the cross axis. */
+
 .row {
     display: flex;
+    flex-wrap: wrap;
 }
 
 .column {
     display: flex;
     flex-direction: column;
+    align-content: center;
 }
 
 .primary {
