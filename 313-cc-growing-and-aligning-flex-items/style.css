@@ -1,5 +1,12 @@
 /* Complete the challenge by writing CSS below */
 
+/* Select the class .column and use the flex item property and value that will expand the columns to fill the space of the row. */
+
 .row {
-  display: flex;
+    display: flex;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
 }
