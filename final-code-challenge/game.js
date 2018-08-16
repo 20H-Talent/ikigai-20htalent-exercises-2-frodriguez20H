@@ -71,7 +71,7 @@ function starCollect(player, star) {
 
 function poisonCollect(player, poison) {
     poison.kill();
-    lives = lives + 1;
+    lives = lives - 1;
     if (lives === 0) {
         player.kill();
         gameOver = true;
