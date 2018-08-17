@@ -2,6 +2,7 @@
 
 .content {
     transition: color, background;
+    transition-duration: .4s, .5s;
 }
 
 .invert:checked ~ .content {
