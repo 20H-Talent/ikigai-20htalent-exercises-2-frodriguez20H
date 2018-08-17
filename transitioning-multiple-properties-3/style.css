@@ -1,0 +1,9 @@
+/* Complete the challenge by writing CSS below */
+
+.content {
+}
+
+.invert:checked ~ .content {
+  color: #fff;
+  background: #373737;
+}
