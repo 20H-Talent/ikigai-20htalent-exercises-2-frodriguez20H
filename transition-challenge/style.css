@@ -1,6 +1,7 @@
 /* Complete the challenge by writing CSS below */
 
 .collapsed {
+    transition-duration: height 0.5s;
 	height: 0;
 	overflow: hidden;
 }
