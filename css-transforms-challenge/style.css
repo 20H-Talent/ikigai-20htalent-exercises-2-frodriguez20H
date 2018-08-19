@@ -11,5 +11,5 @@ img {
     transform: translateY(-100%);
 }
 .photo:hover img {
-
+    transform: scale(1.3);
 }
