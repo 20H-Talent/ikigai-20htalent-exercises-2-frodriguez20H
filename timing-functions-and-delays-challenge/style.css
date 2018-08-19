@@ -1,0 +1,19 @@
+/* nav-item transitions ---------- */
+
+.nav-item {
+  flex-grow: 1;
+}
+
+.nav-item:hover {
+  flex-grow: 2;
+}
+
+/* nav icon transitions ---------- */
+
+.icon {
+  right: -25px;
+}
+
+.nav-item:hover .icon {
+  right: 12%;
+}
