@@ -2,6 +2,7 @@
 
 .nav-item {
   flex-grow: 1;
+  transition: .5s;
 }
 
 .nav-item:hover {
