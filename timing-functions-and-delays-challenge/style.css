@@ -13,6 +13,7 @@
 
 .icon {
   right: -25px;
+  transition: .4s;
 }
 
 .nav-item:hover .icon {
