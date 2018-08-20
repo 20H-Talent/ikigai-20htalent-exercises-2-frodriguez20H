@@ -3,3 +3,7 @@
 .wrapper {
     perspective: 600px;
 }
+
+.photo {
+    transform: rotate3d(0, 1, 0, 30deg);
+}
