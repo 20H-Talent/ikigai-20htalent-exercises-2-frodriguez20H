@@ -5,10 +5,12 @@
     font-size: 1.5em;
   }
 }
-
 .icn {
   font-size: 1.25em;
   &-success {
     color: green;
+  }
+  &-warning {
+    color: red;
   }
 }
