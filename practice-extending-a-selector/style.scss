@@ -11,3 +11,9 @@
 .img-author {
   @extend .roundy;
 }
+
+.message-box {
+  p {
+    @extend %warning;
+  }
+}
