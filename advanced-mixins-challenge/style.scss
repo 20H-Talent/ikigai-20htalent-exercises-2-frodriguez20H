@@ -3,3 +3,7 @@
     width: $size;
     border: 1px solid $color;
 }
+
+.box {
+    @include square(50, red);
+}
