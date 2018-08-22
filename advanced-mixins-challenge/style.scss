@@ -1,4 +1,4 @@
-@mixin square ($size, $color) {
+@mixin square ($size, $color:black) {
     height: $size;
     width: $size;
     border: 1px solid $color;
