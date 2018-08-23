@@ -2,4 +2,5 @@
 .container {
     display: grid;
     grid-template-rows: 200px 300px 100px;
+    grid-template-columns: 200px 400px 200px;
 }
