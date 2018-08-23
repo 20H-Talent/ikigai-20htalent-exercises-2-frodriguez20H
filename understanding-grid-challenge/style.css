@@ -1,4 +1,5 @@
 /* Complete the challenge by writing CSS below */
 .container {
     display: grid;
+    grid-template-rows: 200px 300px 100px;
 }
