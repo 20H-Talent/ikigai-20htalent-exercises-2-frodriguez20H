@@ -1,5 +1,6 @@
 /* Complete the challenge by writing CSS below */
 
 .wrapper {
-
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr 1fr;
 }
