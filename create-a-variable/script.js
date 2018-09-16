@@ -1,1 +1,1 @@
-var myName
+var myName = "Esmerald";
