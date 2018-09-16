@@ -1,4 +1,4 @@
 var id = "23188xtr";
 var lastName = "Smith";
 
-var userName= id.toUpperCase();
+var userName= id.toUpperCase() + "#" + lastName.toUpperCase();
