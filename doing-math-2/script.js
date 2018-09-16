@@ -3,3 +3,4 @@ var retailPrice = 9.99;
 var quantity = 47;
 
 var salesTotal = retailPrice * quantity;
+var profit = salesTotal - (wholesalePrice * quantity);
