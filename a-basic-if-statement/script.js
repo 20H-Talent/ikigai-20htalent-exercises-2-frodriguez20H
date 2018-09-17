@@ -2,9 +2,9 @@ var isAdmin = true;
 var isStudent = false;
 
 if (isAdmin) {
-    alert('Welcome administrator');
+  alert("Welcome administrator");
 } else if (isStudent) {
-    alert('Welcome student')
+  alert("Welcome student");
 } else {
-    alert('Sorry can\'t access.')
+  alert("Who are you?");
 }
