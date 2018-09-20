@@ -1,6 +1,6 @@
 var secret = prompt("What is the secret password?");
 
-if(secret !== "sesame") {
+while (secret !== "sesame") {
   secret = prompt("That's not it! Try again");
 }
 
