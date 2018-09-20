@@ -8,3 +8,4 @@ function max(a, b) {
   }
 }
 
+alert(max(3, 6));
