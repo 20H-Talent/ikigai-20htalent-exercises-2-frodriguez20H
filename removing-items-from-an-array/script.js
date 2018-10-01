@@ -4,4 +4,6 @@ var shipping = [];
 
 shipping.push(orderQueue.shift());
 
-console.log(shipping);
+var cancelled = [];
+
+cancelled.push(orderQueue.pop());
